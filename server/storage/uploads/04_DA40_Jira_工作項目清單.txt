@@ -1,0 +1,77 @@
+================================================================================
+                    DA40 Jira 工作項目清單
+                    優先順序: High
+                    專案: DA40
+                    狀態: Open（截至 2026-04-14）
+                    來源: Jira（https://jiraprod.askey.com.tw:8443）
+================================================================================
+
+【基礎建設需求】
+
+DA40-421 | Task | Open | High
+  綜合設備一同上線8台/16台/24台/32台
+
+DA40-420 | Task | Open | High
+  網路線
+
+DA40-419 | Task | Open | High
+  USB HUB / USB Cable
+
+DA40-418 | Task | Open | High
+  Switch 1G/10G穩定度；PoE供電穩定度
+
+DA40-417 | Task | Open | High
+  PC環境驗證，網卡1G/10G穩定度
+
+DA40-416 | Task | Open | High
+  測試計劃
+
+【周邊硬體採購】
+
+DA40-414 | Task | Open | High
+  Cable TYPE-A for RTL6304/6305
+
+DA40-413 | Task | Open | High
+  USB Cable
+
+DA40-412 | Task | Open | High
+  HUB-TYPE C for NDQ1300
+
+DA40-411 | Task | Open | High
+  HUB-TYPE A for RTL6304/6305
+
+DA40-410 | Task | Open | High
+  USB週邊
+
+DA40-409 | Task | Open | High
+  置放基站(5G/4G) 45cm X 45cm X 200cm
+
+DA40-408 | Task | Open | High
+  置放UEs X2  45cm X 100cm X 180cm
+
+DA40-407 | Task | Open | High
+  層架
+
+【供應商採購注意事項】
+
+DA40-406 | Task | Open | High
+  NDQ1300（大陸領用，注意快遞收貨及送貨交期）
+
+DA40-405 | Task | Open | High
+  RTL6304（大陸領用，注意快遞收貨及送貨交期）
+
+DA40-404 | Task | Open | High
+  RTL6305（大陸領用，注意快遞收貨及送貨交期）
+
+DA40-403 | Task | Open | High
+  UEs
+
+DA40-402 | Task | Open | High
+  PoE Switch 1G 4埠；10G 2埠 X1
+  （下半年仍缺工缺料，注意下單交期天數）
+
+DA40-401 | Task | Open | High
+  XG Switch 48埠 X1
+  （下半年仍缺工缺料，注意下單交期天數）
+
+================================================================================

@@ -1,0 +1,27 @@
+================================================================================
+                    每日進度更新｜2026-04-07
+                    來源: Confluence DA40 Space
+================================================================================
+
+【Confluence create plan】
+  - 已新增 Try Action Items 子頁面（id=334640031）
+  - 已更新 POC 1 架構圖 v7，修正管理面與網路面平行關係
+  - 5G NR 架構圖 v7 FINAL 已確認完成（Alice 確認「可以了」）
+  - 已將「主責」→ 「owner」、「統籌」→ 「Lina」置換完畢
+  - 已備份 Neo 上傳相關資料（12個附件）至 workspace/amp_cloud_study/neo_upload_20260325/
+  - Run R41527：35 Pass
+
+【TestRail】
+  - Gurock TestRail API 文件：https://www.gurock.com/testrail/docs/api/
+  - TestRail API 串接成功（sam.chien@askey.com.tw）
+  - T4996254 Cell register to AMP 截圖已取得並發送
+
+【AMP Cloud】
+  - 已登入 amplab.askeydms.com:42443
+  - POC 1 測試基站（172.14.1.19）已完成 AMP 連線設定
+
+【待辦事項】
+  - 確認所有 TestRail Run 執行狀態
+  - 持續追蹤 5G Cell 連線穩定性
+
+================================================================================

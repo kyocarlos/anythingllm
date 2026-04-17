@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "confluence": {
+      "command": "/home/da40_ai_gb10/mcp-env/bin/python3",
+      "args": [
+        "/home/da40_ai_gb10/Confluence_mcp.py"
+      ],
+      "env": {
+        "JIRA_URL": "https://jiraprod.askey.com.tw:8443",
+        "JIRA_HOME_URL": "https://jiraprod.askey.com.tw:8443/projects/DA40/issues/DA40-386?filter=allopenissues",
+        "JIRA_EMAIL": "anderson1_huang",
+        "JIRA_PASSWORD": "Kyo1977660101!@"
+      }
+    },
+    "obsidian": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "obsidian-mcp",
+        "D:\\\\DA40_KM_Data_base"
+      ]
+    }
+  }
+}

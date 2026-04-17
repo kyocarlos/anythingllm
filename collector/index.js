@@ -198,3 +198,11 @@ app
       process.kill(process.pid, "SIGINT");
     });
   });
+
+// Debug endpoint
+app.get("/debug-env", function(_, response) {
+  response.json({
+    NODE_ENV: process.env.NODE_ENV,
+    NODE_TLS_REJECT_UNAUTHORIZED: process.env.NODE_TLS_REJECT_UNAUTHORIZED
+  });
+});

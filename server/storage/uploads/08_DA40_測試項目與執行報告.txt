@@ -1,0 +1,49 @@
+================================================================================
+          DA40 測試項目與執行報告
+          TestRail URL: https://testrail.askey.com.tw/testrail
+          API 文件: https://www.gurock.com/testrail/docs/api/
+          聯絡人: sam.chien@askey.com.tw
+          來源: TestRail + Confluence
+================================================================================
+
+一、TestRail 專案資訊
+------------------------------------------------------------------------------
+  TestRail API 已成功串接
+  測試報告聯絡窗口：sam.chien@askey.com.tw
+
+二、重要 Test Run 記錄
+------------------------------------------------------------------------------
+  Run ID     執行內容                          結果
+  R41527     Cell Register to AMP 測試         35 Pass
+  T4996254   Cell Register to AMP（截圖已取得）
+
+三、測試覆蓋範圍
+------------------------------------------------------------------------------
+  【Cell 註冊到 AMP】
+    Case T4996254：Cell Register to AMP — PASSED
+    Step 0：Allow List 確認 ✅
+    Step 1：Provision Method = Remote ✅
+    Step 2：Management Server = amplab.sbi.askeydms.com:42443/cwmp ✅
+    Step 3：Reboot ✅
+    Step 4：AMP Device List → Online ✅
+
+  【Provisioning 測試】
+    Case C2270913：AMP Provisioning — PASSED
+    Step 1：AMP 參數確認 ✅
+      - gNB ID=19, TAC=1, Cell ID=1
+      - MCC=001, MNC=01, AMF IP=172.14.1.2
+      - NSSAI=16843267
+      - NR Band=N77, Bandwidth=100MHz
+
+四、TestRail API 使用方式
+------------------------------------------------------------------------------
+  Base URL：https://testrail.askey.com.tw/testrail/index.php?api/v2/
+  驗證方式：HTTP Basic Auth（email:password）
+  可用端點：
+    - GET /get_projects         取得專案列表
+    - GET /get_suites/{project_id}    取得測試套件
+    - GET /get_runs/{project_id}      取得測試執行
+    - GET /get_results/{run_id}       取得執行結果
+    - POST /add_run             新增測試執行
+
+================================================================================
