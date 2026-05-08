@@ -68,16 +68,27 @@ class MCPCompatibilityLayer extends MCPHypervisor {
                         `MCP server ${name} is not currently running`
                       );
 
+                    // 從 aibitat.handlerProps 取得 user_id 和 username
+                    const userId = aibitat?.handlerProps?.invocation?.user_id;
+                    const username = aibitat?.handlerProps?.user?.username;
+                    
+                    // 將 user_id 和 username 加入 args，傳給 MCP
+                    const mcpArgs = {
+                      ...args,
+                      _user_id: userId || null,
+                      _username: username || null,
+                    };
+
                     aibitat.handlerProps.log(
                       `Executing MCP server: ${name}:${tool.name} with args:`,
-                      args
+                      mcpArgs
                     );
                     aibitat.introspect(
-                      `Executing MCP server: ${name} with ${JSON.stringify(args, null, 2)}`
+                      `Executing MCP server: ${name} with ${JSON.stringify(mcpArgs, null, 2)}`
                     );
                     const result = await currentMcp.callTool({
                       name: tool.name,
-                      arguments: args,
+                      arguments: mcpArgs,
                     });
                     aibitat.handlerProps.log(
                       `MCP server: ${name}:${tool.name} completed successfully`,

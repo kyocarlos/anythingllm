@@ -604,6 +604,7 @@ class AgentHandler {
       chats: await this.#chatHistory(20),
       handlerProps: {
         invocation: this.invocation,
+        user: user,  // 包含 username 等資訊
         log: this.log,
       },
     });
